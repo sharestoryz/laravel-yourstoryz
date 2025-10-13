@@ -19,8 +19,9 @@ class YourStoryzServiceProvider extends PackageServiceProvider
     {
         $this->app->singleton(YourStoryz::class, function () {
             $token = config('yourstoryz.api_token');
+            $baseUrl = config('yourstoryz.base_url');
 
-            return new YourStoryz($token);
+            return new YourStoryz($token, $baseUrl);
         });
 
         $this->app->alias(YourStoryz::class, 'yourstoryz');
