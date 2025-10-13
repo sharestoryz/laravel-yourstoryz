@@ -34,13 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "YourStoryz\\YourStoryz\\": "src/",
-            "YourStoryz\\YourStoryz\\Database\\Factories\\": "database/factories/"
+            "YourStoryz\\LaravelYourStoryz\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "YourStoryz\\YourStoryz\\Tests\\": "tests/",
+            "YourStoryz\\LaravelYourStoryz\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -62,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "YourStoryz\\YourStoryz\\YourStoryzServiceProvider"
+                "YourStoryz\\LaravelYourStoryz\\YourStoryzServiceProvider"
             ],
             "aliases": {
-                "YourStoryz": "YourStoryz\\YourStoryz\\Facades\\YourStoryz"
+                "YourStoryz": "YourStoryz\\LaravelYourStoryz\\Facades\\YourStoryz"
             }
         }
     },

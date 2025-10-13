@@ -1,10 +1,10 @@
 <?php
 
-namespace YourStoryz\YourStoryz\Tests;
+namespace YourStoryz\LaravelYourStoryz\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use YourStoryz\YourStoryz\YourStoryzServiceProvider;
+use YourStoryz\LaravelYourStoryz\YourStoryzServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'YourStoryz\\YourStoryz\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'YourStoryz\\LaravelYourStoryz\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace YourStoryz\YourStoryz;
+namespace YourStoryz\LaravelYourStoryz;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

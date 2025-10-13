@@ -1,5 +1,5 @@
 <?php
 
-use YourStoryz\YourStoryz\Tests\TestCase;
+use YourStoryz\LaravelYourStoryz\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

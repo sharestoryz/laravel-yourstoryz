@@ -1,6 +1,5 @@
 <?php
 
-// config for YourStoryz/YourStoryz
 return [
-
+    'api_token' => env('YOURSTORYZ_API_TOKEN', ''),
 ];
