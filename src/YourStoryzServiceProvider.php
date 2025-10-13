@@ -17,7 +17,7 @@ class YourStoryzServiceProvider extends PackageServiceProvider
 
     public function packageBooted(): void
     {
-        $this->app->singleton(OhDear::class, function () {
+        $this->app->singleton(YourStoryz::class, function () {
             $token = config('yourstoryz.api_token');
 
             return new YourStoryz($token);
