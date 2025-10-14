@@ -8,6 +8,6 @@ class YourStoryz extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return 'yourstoryz';
+        return \Yourstoryz\PhpSdk\YourStoryz::class;
     }
 }

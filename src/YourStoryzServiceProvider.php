@@ -23,7 +23,5 @@ class YourStoryzServiceProvider extends PackageServiceProvider
 
             return new YourStoryz($token, $baseUrl);
         });
-
-        $this->app->alias(YourStoryz::class, 'yourstoryz');
     }
 }
