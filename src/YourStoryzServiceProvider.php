@@ -4,7 +4,7 @@ namespace YourStoryz\LaravelYourStoryz;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Yourstoryz\PhpSdk\YourStoryz;
+use YourStoryz\PhpSdk\YourStoryz;
 
 class YourStoryzServiceProvider extends PackageServiceProvider
 {
