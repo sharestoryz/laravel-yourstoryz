@@ -1,10 +1,11 @@
 <?php
 
 use YourStoryz\LaravelYourStoryz\Facades\YourStoryz;
+use YourStoryz\LaravelYourStoryz\YourStoryzServiceProvider;
 use YourStoryz\PhpSdk\YourStoryz as YourStoryzSdk;
 
 it('registers the service provider', function () {
-    expect(app()->getProviders(\YourStoryz\LaravelYourStoryz\YourStoryzServiceProvider::class))
+    expect(app()->getProviders(YourStoryzServiceProvider::class))
         ->not->toBeEmpty();
 });
 
