@@ -2,6 +2,19 @@
 
 All notable changes to `laravel-yourstoryz` will be documented in this file.
 
+## 0.0.3 - 2026-04-05
+
+### What's Changed
+
+- Set minimum-stability to stable
+- Pin yourstoryz-php-sdk to ^0.0.4
+- Drop Laravel 11 support
+- Add Laravel 13 support
+- Add PHP 8.5 to test workflow
+- Update README with package description and usage examples
+- Update changelog workflow to use 0.x branch
+- Replace example test with service provider tests
+
 ## Release 0.0.3 - 2026-04-05
 
 ### What's Changed
