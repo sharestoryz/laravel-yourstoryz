@@ -5,7 +5,14 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/sharestoryz/laravel-yourstoryz/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/sharestoryz/laravel-yourstoryz/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/sharestoryz/laravel-yourstoryz.svg?style=flat-square)](https://packagist.org/packages/sharestoryz/laravel-yourstoryz)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+A Laravel package that provides a convenient wrapper around the [YourStoryz PHP SDK](https://github.com/sharestoryz/yourstoryz-php-sdk). It handles authentication and service registration out of the box, so you can start interacting with the YourStoryz API right away.
+
+```php
+use YourStoryz\LaravelYourStoryz\Facades\YourStoryz;
+
+$companies = YourStoryz::companies()->all();
+$me = YourStoryz::users()->me();
+```
 
 ## Installation
 
